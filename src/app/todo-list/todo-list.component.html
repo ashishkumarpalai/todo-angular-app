@@ -8,7 +8,7 @@
                     <th>TASK</th>
                     <th>TARGET</th>
                     <th>STATUS</th>
-                    <th>EDIT</th>
+                    <th>STATUS EDIT</th>
                     <th>DELETE</th>
                 </tr>
             </thead>
@@ -19,7 +19,7 @@
                     <td>{{ todo.completed ? "Completed" : "Pending" }}</td>
                     <td>
                         <button (click)="updateTodoStatus(todo)" class="edit-btns">
-                            Change Status
+                            Edit
                         </button>
                     </td>
                     <td>
